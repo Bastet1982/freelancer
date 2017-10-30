@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> 6819f6a07e38dda73fcfbd91ad3606085ecccac9
 /*ESTRELLA - LINEA*/
 .l-blanca{
 	width: 250px;
@@ -31,7 +28,9 @@
 }
 /*FIN ESTRELLA LINEA*/
 
-
+body{
+margin: 0 auto;
+}
 
 /*
  ENCABEZADO CSS
@@ -211,10 +210,7 @@ input{
     -webkit-border-radius: 10%;
     border-radius: 10%;
     background: #18bc9c;
-<<<<<<< HEAD
-=======
     color:white;
->>>>>>> 6819f6a07e38dda73fcfbd91ad3606085ecccac9
     display: inline-block;
     text-align: center;	
 
