@@ -1,0 +1,369 @@
+/*ESTRELLA - LINEA*/
+.l-blanca{
+	width: 250px;
+	border: 4px solid white;
+}
+.blanca{
+	color: white;
+	background: #18bc9c;
+	padding: 7px;
+	position: relative;
+	bottom: 38px;
+}
+.l-azul{
+	width: 250px;
+	border: 4px solid #2c3e50;
+}
+.azul{
+	color:#2c3e50 ;
+	background: white;
+	padding: 7px;
+	position: relative;
+	bottom: 38px;
+	
+}
+.starlight{
+	text-align: center;
+}
+/*FIN ESTRELLA LINEA*/
+
+
+
+/*
+ ENCABEZADO CSS
+ */
+header{
+	background: #2c3e50;
+	border:0;
+	margin:0;
+	padding:40px;
+	font-family: Montserrat;
+	font-weight: 800;
+	color:white;
+}
+
+li{
+	display: inline-block;
+	list-style:none;
+}
+.start{
+	font-size: 30px;
+	padding-left: 50px;
+}
+.portfolio{
+    font-size: 18px;
+	padding-left:500px;
+}
+.about{
+    font-size: 18px;
+	padding-left: 30px;
+	top: 10px;
+}
+.contact{
+    font-size: 18px;
+	padding-left: 30px;
+} 
+.portfolio:hover{
+	color:#18bc9c;
+}
+.about:hover{
+	color:#18bc9c;
+}
+.contact:hover{
+	color:#18bc9c;
+}/*FIN ENCABEZADO*/
+
+/*
+*PRESENTACION
+*/
+.presentation{
+	background: #18bc9c;
+	margin: 0;
+	padding:40px;
+    text-align: center;
+    color:white;
+}
+h1{
+	font-family: Montserrat;
+	font-size: 80px;
+	font-weight: 700;	
+}
+h3{
+	font-family: Lato;
+	font-size: 28px;
+	font-weight: 400;
+}
+/*
+*FIN DE PRESENTACION
+*/
+
+ /* PORTAFOLIO*/
+.pictures{   
+	margin:0;
+	padding:80px;
+	text-align: center;
+}	
+h2{
+	font-family: Montserrat;
+	font-size: 50px;
+	font-weight: 700;
+	text-align: center;	
+}	
+
+.img1{         /*Imagenes Portafolio*/
+	height: 25%;
+	width: 25%;
+	padding:15px;
+}
+.img2{
+	height: 25%;
+	width: 25%;
+	padding:15px;
+}
+.img3{
+	height: 25%;
+	width: 25%;
+	padding:15px;
+}
+.img4{
+    height: 25%;
+	width: 25%;
+	padding:15px;
+}
+.img5{
+	height: 25%;
+	width: 25%;
+	padding:15px;
+}
+.img6{
+	height: 25%;
+	width: 25%;
+	padding:15px;
+}	
+/* 
+*FIN PORTAFOLIO*/
+
+.history{    /*INICIO ABOUT*/
+	background: #18bc9c;
+	color:white;
+	padding:30px;
+	text-align: center;
+}
+
+td{ 
+	/*border: 1px solid white;*/
+	padding-bottom: 100px;
+	font-family: Lato;
+	font-size: 20px;
+	font-weight: 400;
+
+
+}
+.download{
+	border:2px solid white;
+	height: 40px;
+	width: 220px;
+	-moz-border-radius: 4%;
+    -webkit-border-radius: 4%;
+    border-radius: 4%;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;	
+}
+
+h6{
+	font-family: Lato;
+	padding-top: 0;
+	font-size: 18px;
+	display: inline-block;
+	margin-top: 0;
+}
+.download:hover{
+	background: white;
+	color:#18bc9c;
+}
+/*FIN  ABOUT*/
+
+/*INICIO FORMULARIO+*/
+
+form{
+
+	text-align:left;
+	padding-left:360px;
+	font-family: Lato;
+	font-size:30px;
+	color:grey;
+	line-height: 100px;   
+}
+input{
+	border: none;
+}
+
+	
+}
+.button{  
+	padding: 5px;
+	-moz-border-radius: 10%;
+    -webkit-border-radius: 10%;
+    border-radius: 10%;
+    background: #18bc9c;
+    display: inline-block;
+    text-align: center;	
+
+}
+/*TERMINO FORMULARIO*/
+
+/*PIE DE PÁGINA INICIO*/
+footer{
+	height: 300px;
+	background: #2c3e50;   /*DETALLES CAJA FONDO*/
+	margin:0;
+	padding:10px;
+	color:white;
+}
+
+.tit1{                          /*titulos*/
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 30px;
+	padding-left:100px;
+	text-align: left;
+
+}
+.tit2{
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 30px;
+	display: inline;
+	position: relative;
+	top:-67px;
+	left: 220px;
+
+}
+.tit3{
+	font-family: Montserrat;
+	font-weight: 800;
+	font-size: 30px;
+	padding-right: 100px;
+	text-align:right;
+	position: relative;
+	top:-228px;
+}
+.location{                   /*datos*/
+	font-family:Lato; 
+    font-size: 18px;
+    padding-left: 90px;
+    text-align: center;
+    float: left;
+}
+.freelancer{
+	width: 300px;
+    font-family:Lato; 
+    font-size: 18px;
+    padding-right: 110px;
+    text-align: center;
+    position: relative;
+    top:-230px;
+    left:970px;    
+}
+a{
+	color: #18bc9c;
+	text-decoration: none;
+}
+.copyright{
+	border:0;
+	font-family:Lato; 
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top:-170px;
+    left:-50px;
+}
+
+.fa-facebook{                 /*LOGOS*/
+	border: 2px solid white;
+	height: 45px;
+	width: 55px;
+	-moz-border-radius:70%;
+    -webkit-border-radius: 70%;
+    border-radius: 70%;
+    padding-top: 15px;
+	text-align:center;
+	position: relative;
+	top:-60px;
+	left: 435px;
+
+}
+.fa-google-plus{
+	border: 2px solid white;
+	height: 45px;
+	width: 55px;
+	-moz-border-radius:70%;
+    -webkit-border-radius: 70%;
+    border-radius: 70%;
+	padding-top: 15px;
+	text-align:center;
+	position: relative;
+	top:-60px;
+	left: 440px;
+}
+.fa-twitter{
+	border: 2px solid white;
+	height: 45px;
+	width: 55px;
+	-moz-border-radius:70%;
+    -webkit-border-radius: 70%;
+    border-radius: 70%;
+	padding-top: 15px;
+	text-align:center;
+	position: relative;
+	top:-60px;
+	left: 445px;
+}
+.fa-linkedin{
+	border: 2px solid white;
+	height: 45px;
+	width: 55px;
+	-moz-border-radius:70%;
+    -webkit-border-radius: 70%;
+    border-radius: 70%;
+	padding-top: 15px;
+	text-align:center;
+	position: relative;
+	top:-60px;
+	left: 450px;
+}
+.fa-dribbble{
+	border: 2px solid white;
+	height: 45px;
+	width: 55px;
+	-moz-border-radius:70%;
+    -webkit-border-radius: 70%;
+    border-radius: 70%;
+	padding-top: 15px;
+	text-align:center;
+	position: relative;
+	top:-60px;
+	left: 455px;
+}
+.fa-facebook:hover{
+	background: white;
+	color:#18bc9c;
+}
+.fa-google-plus:hover{
+	background: white;
+	color:#18bc9c;
+}
+.fa-twitter:hover{
+	background: white;
+	color:#18bc9c;
+}
+.fa-linkedin:hover{
+	background: white;
+	color:#18bc9c;
+}
+.fa-dribbble:hover{
+	background: white;
+	color:#18bc9c;
+}
+/*FIN PIE DE PAGINA*/
